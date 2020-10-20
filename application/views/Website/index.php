@@ -22,7 +22,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
+    <div class="navbar-nav ml-auto m-center m-bg-grey">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">Features</a>
       <a class="nav-item nav-link" href="#">About Us</a>
@@ -32,10 +32,6 @@
   </div>
 </nav>
 </section>
-
-
-
-
 
 <section class="banner-slider">
       <div class="row">
@@ -53,7 +49,6 @@
                 </div>
               </div>
             </div>
-
             <div class="item">
               <div class="main-slide">
                 <div class="row">
@@ -67,7 +62,6 @@
                 </div>
               </div>
             </div>
-
     </div>
   </div>
 </section>
@@ -76,7 +70,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 p-3">
-        <iframe width="90%" height="450px" src="https://www.youtube.com/embed/WfqMmypbACg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe  class="mobile-video"  width="90%" height="450px" src="https://www.youtube.com/embed/WfqMmypbACg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="col-md-6">
         <h1>ABOUT US</h1>
@@ -96,22 +90,22 @@
       <div class="col-md-3 ">
         <img class="" src="<?php echo base_url(); ?>assets/images/n1.png" width="100%">
         <h4>24*7 Customer Service</h4>
-        <p class="text-center">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
+        <p class="text-center mmb">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
       </div>
       <div class="col-md-3">
         <img class="" src="<?php echo base_url(); ?>assets/images/n2.png" width="100%">
         <h4>24*7 Customer Service</h4>
-        <p class="text-center">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
+        <p class="text-center mmb">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
       </div>
       <div class="col-md-3">
         <img class="" src="<?php echo base_url(); ?>assets/images/n3.png" width="100%">
         <h4>24*7 Customer Service</h4>
-        <p class="text-center">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
+        <p class="text-center mmb">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
       </div>
       <div class="col-md-3">
         <img class="" src="<?php echo base_url(); ?>assets/images/n4.png" width="100%">
         <h4>24*7 Customer Service</h4>
-        <p class="text-center">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
+        <p class="text-center mmb">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts</p>
       </div>
     </div>
   </div>
@@ -149,7 +143,7 @@
         <div class="card">
           <div class="card-body text-right">
             <h6>Lorem ipsum</h6>
-            <p>Lorem ipsum is placeholder in used in text used in the graphic,commonly used in the graphic commonly</p>
+            <p class="mmb">Lorem ipsum is placeholder in used in text used in the graphic,commonly used in the graphic commonly</p>
           </div>
         </div>
       </div>
@@ -199,8 +193,8 @@
         <img class="faq-img" src="<?php echo base_url(); ?>assets/images/faq.png" width="100%">
       </div>
       <div class="col-md-6">
-        <h1>Our Faq</h1>
-        <p>Lorem ipsum is placeholder in used in text used in the graphic,commonly used in the graphic</p>
+        <h1 class="mmb">Our Faq</h1>
+        <p class="mmb">Lorem ipsum is placeholder in used in text used in the graphic,commonly used in the graphic</p>
 
         <div class="">
           <div id="accordion">
@@ -347,11 +341,11 @@
     <div class="row">
       <div class="col-md-4">
         <img class="footer-logo" src="<?php echo base_url(); ?>assets/images/logo.png" alt=""  width="100%">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+        <p class="m-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
       </div>
-      <div class="col-md-4">
-        <h4>Useful Links</h4>
-        <ul>
+      <div class="col-md-4 m-center">
+        <h4 class="m-center">Useful Links</h4>
+        <ul class="m-center">
           <li> <a href="#">Home</a> </li>
           <li> <a href="#">features</a> </li>
           <li> <a href="#">About</a> </li>
@@ -360,8 +354,8 @@
           <li> <a href="#">Privacy Policy</a></li>
         </ul>
       </div>
-      <div class="col-md-4 px-3">
-        <h4>Address</h4>
+      <div class="col-md-4 px-3 m-center">
+        <h4 class="m-center">Address</h4>
         <p class="mb-1">plot No. 82, Pratibha Nagar Kolhapur 416001</p>
         <p class="mb-1">10:00 AM To 7:00PM </p>
         <p class="mb-1">9876543210</p>

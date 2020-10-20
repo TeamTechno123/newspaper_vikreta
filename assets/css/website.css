@@ -17,11 +17,11 @@ a:hover{
   text-decoration: none;
   color: #000;
 }
+
 .brand-logo{
   width: 180px;
   height: 80px;
   margin-left: 40px;
-
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -290,4 +290,136 @@ footer{
 
 footer h4{
   font-size: 1.5rem;
+}
+
+
+
+/**********************   Media query mobile Start *****************/
+
+@media screen and (max-width: 418px) {
+
+
+.mmb{
+  margin-bottom: 30px;
+}
+  .banner-slider {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .banner-slider .main-slide h1{
+    font-size: 2rem!important;
+    margin-top: 10px!important;
+    padding-top: 10px!important;
+    font-weight: bold;
+  }
+
+  .banner-slider .main-slide p{
+    font-size: 1rem!important;
+    margin-top: 10px!important;
+    padding-top: 10px!important;
+    text-align: left;
+  }
+
+
+
+  .about  h1{
+    font-size: 2rem!important;
+    margin-top: 20px!important;
+    padding-top: 20px!important;
+    font-weight: bold;
+  }
+
+  .about p{
+    font-size: 1rem!important;
+    margin-top: 10px!important;
+    padding-top: 10px!important;
+    text-align: left;
+  }
+
+  .about .mobile-video{
+    width: 100%!important;
+  }
+
+  .features h1{
+    font-size: 2rem!important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .faq h1{
+    font-size: 2rem!important;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .faq .faq-img{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .our-screen h1{
+    font-size: 2rem!important;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .our-screen .screen{
+    margin-bottom: 40px;
+  }
+
+  .testomonial h1{
+    font-size: 2rem!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .testomonial .card{
+    margin-bottom: 40px;
+  }
+
+  .store h1{
+    font-size: 1.7rem!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+  }
+
+  footer ul{
+    list-style-type: none;
+    padding-left: 10px;
+  }
+
+  .m-center{
+    text-align: center!important;
+  }
+
+  .brand-logo{
+    width: 150px;
+    height: auto;
+    margin-left: 40px;
+  }
+
+  .m-bg-grey{
+    background-color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 }
