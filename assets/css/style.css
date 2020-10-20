@@ -1,0 +1,389 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-section{
+  background-color: #9900cc;
+}
+.nav-link, .navbar-brand{
+  color: #fff;
+}
+.nav-link:hover{
+  color: #fff!important;
+}
+.navbar-brand:hover{
+color: #fff!important;
+}
+.container-fluid{
+  padding: 0px;
+  margin: 0px;
+}
+.app-slider{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f4f8fa;
+}
+.banner{
+  padding-bottom: 50px;
+}
+
+.speciality{
+  padding-top: 15px;
+  padding-bottom: 20px;
+
+}
+
+.speciality-img{
+  width: 100%;
+  height: auto;
+}
+
+.features{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.features h4{
+  text-align: center;
+}
+
+.features .fas{
+  text-align: center;
+  font-size: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  padding-top: 30px;
+  color: #82CAFA;
+}
+
+.features-page{
+  padding-top: 50px;
+}
+
+.features-page{
+  background-image: url("../images/mitting.jpeg");
+ /* Set a specific height */
+ min-height: 250px;
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.features-page:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:255px;
+    top:8.5%; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.features-page .main{
+  z-index: 99;
+  color: #fff;
+}
+
+.features-page h1{
+  font-size: 3.5rem;
+}
+.features-page h1:after{
+  border-bottom: 4px solid #9900cc;
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 12%;
+      bottom: 0;
+      margin: 0 auto;
+}
+
+.features-2{
+  padding-top: 50px;
+}
+
+.features-2 h2{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+  color: #9900cc;
+}
+.features-2 p{
+      padding-left: 10px;
+      padding-top: 15px;
+      text-align: justify;
+      font-family: 'Martel', serif;
+      line-height: 27px;
+}
+.features-2 img{
+  padding-top: 50px;
+  width: 100%;
+  height: 450px;
+}
+
+.features-3{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.features-3 h2{
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Martel', serif;
+  color: #9900cc;
+}
+
+.features-left, .features-right {
+  padding: 12px 8px;
+}
+
+.features-left h4, .features-right h4{
+font-size: 22px;
+font-weight: 400;
+padding-top: 10px;
+padding-bottom: 12px;
+color: #9900cc;
+text-align: left;
+font-family: 'Martel', serif;
+}
+
+.features-left p, .features-right p{
+  font-size: 18px;
+  font-weight: 200;
+  text-align: justify;
+  font-family: 'Martel', serif;
+
+}
+.features-left img, .features-right img{
+width: 80px;
+height: 100px;
+margin-top: 35px;
+float: left;
+padding-bottom: 15px;
+margin-bottom: 35px;
+padding-right: 8px;
+}
+.features-right:hover{
+  box-shadow: 0 0 11px rgba(153,33,204,.2);
+}
+.features-left:hover{
+  box-shadow: 0 0 11px rgba(153,33,204,.2);
+}
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: #333232;
+  color: #fff;
+}
+
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  color: #fff;
+}
+footer .bottom{
+  border-top: 1px solid #fff;
+  padding-top: 15px;
+}
+
+.policy{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+.policy h1{
+font-size: 32px;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+
+.policy p{
+  font-size: 18px;
+  text-align: justify;
+
+}
+
+.about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about h4{
+  text-align: center;
+}
+
+.about .fas{
+  text-align: center;
+  font-size: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  padding-top: 30px;
+  color: #82CAFA;
+}
+
+.about-page{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-page{
+  background-image: url("../images/mitting.jpeg");
+ /* Set a specific height */
+ min-height: 450px;
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.about-page:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:455px;
+    top:8.5%; left:0; bottom: 0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.about-page .main{
+
+  z-index: 99;
+  color: #fff;
+}
+
+.about-page h1{
+  padding-top: 100px;
+  font-size: 3.5rem;
+}
+.about-page h1:after{
+  border-bottom: 4px solid #9900cc;
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 12%;
+      bottom: 0;
+      margin: 0 auto;
+}
+.about-2 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.about-2 h2{
+  font-size: 2.5rem;
+}
+.about-2 p{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.about-special .special img{
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+
+.about-2{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.about-2 .about-payment{
+  width: 100%;
+  height: auto;
+}
+
+.about-2-right .about-center{
+font-size: 25px;
+padding-top: 21%;
+}
+
+.contact-page-top{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.contact-middle{
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.contact-middle h4{
+  font-size: 32px;
+  color: #9900CC;
+  padding-top: 10px;
+}
+
+.contact-middle .big-text{
+  font-size: 20px;
+  color: #9900CC;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.theme-color{
+  color: #9900CC;
+}
+.map{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.border-contact{
+ padding: 20px 15px !important;
+ /* border-style: dashed!important; */
+  /* border: 4px solid #9900cc; */
+}
+/* .border-contact:hover {
+  box-shadow: 0 0 50px rgba(153,33,204,.2);
+} */
+.mail-contact h4{
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.contact-middle .social{
+  font-size: 24px;
+  padding-top: 15px;
+  color: #000;
+}
+.contact-middle .social:hover{
+color: #9900cc;
+}
+
+.btn-techno{
+  color: #9900cc;
+  border: 1px solid #9900cc;
+}
+
+.btn-techno:hover{
+  background-color: #9900cc;
+  border: 1px solid #9900cc;
+  color: #fff;
+}
+.btn-techno:active{
+  background-color: #9900cc!important;
+  border: 1px solid #9900cc!important;
+  color: #fff;
+}
+.btn-techno:focus{
+  box-shadow: 0 0 0 0.2rem rgba(153,0,204,.5)!important;
+}

@@ -1,0 +1,293 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.row, .container-fluid{
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #000;
+}
+.brand-logo{
+  width: 180px;
+  height: 80px;
+  margin-left: 40px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+.banner-slider {
+  margin-top: 30px;
+  padding-top: 20px;
+
+}
+
+.banner-slider .main-slide h1{
+  font-size: 4rem!important;
+  margin-top: 40px!important;
+  padding-top: 40px!important;
+  font-weight: bold;
+}
+
+.banner-slider .main-slide p{
+  font-size: 1rem!important;
+  margin-top: 10px!important;
+  padding-top: 10px!important;
+  text-align: left;
+}
+
+.owl-one .owl-prev, .owl-one .owl-next{
+  display: none!important;
+}
+
+
+
+
+
+.about{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  background-color: #ebebeb;
+}
+
+.about  h1{
+  font-size: 4rem!important;
+  margin-top: 40px!important;
+  padding-top: 40px!important;
+  font-weight: bold;
+}
+
+.about p{
+  font-size: 1rem!important;
+  margin-top: 10px!important;
+  padding-top: 10px!important;
+  text-align: left;
+}
+
+
+.services{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background-color: #0c6bb2;
+}
+
+.services img{
+  width: 55px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+
+.services h4{
+  font-size: 1.5rem!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+
+.services p{
+  text-align: center;
+  color: #fff;
+
+}
+
+.features {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.features h1{
+  font-size: 3.5rem!important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.features .card{
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px 3px #0c6bb2;
+}
+
+.features .card h6{
+  font-size: 18px;
+}
+
+
+
+.faq{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background-color: #0c6bb2;
+}
+
+.faq h1{
+  font-size: 3.5rem!important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.faq p{
+  color: #fff;
+}
+
+.faq .faq-img{
+  width: 350px;
+  height: 400px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq .card{
+  margin-bottom: 20px;
+}
+
+.faq .card-header{
+  background-color: #0c6bb2;
+
+}
+
+.faq .btn-link{
+  color: #fff;
+}
+
+.our-screen {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.our-screen h1{
+  font-size: 3.5rem!important;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.our-screen p{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.testomonial{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  background-color: #ebebeb;
+}
+
+
+
+.testomonial h1{
+  font-size: 3.5rem!important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.testomonial h4{
+  font-size: 1.3rem!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.testomonial .circle{
+  background-color: #0c6bb2;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 10%;
+  top: -14%;
+  border-radius: 50%;
+}
+
+.testomonial .card{
+  box-shadow: 0 8px 6px -6px black;
+}
+
+
+.border-gradient {
+  border-top: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-right: 3px solid #ebebeb !important;
+}
+.border-gradient-purple {
+    border-image-source: linear-gradient(to right, #ebebeb, #0c6bb2);
+}
+
+
+.store {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background-color: #0c6bb2;
+}
+
+.store h1{
+  font-size: 4rem!important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.store p{
+  color: #fff;
+  text-align: center;
+}
+
+
+.footer-logo{
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#bottom_footer{
+  border-top: 1px solid #4d4d4d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+
+}
+
+
+
+footer{
+  padding-top: 60px;
+}
+
+footer h4{
+  font-size: 1.5rem;
+}
